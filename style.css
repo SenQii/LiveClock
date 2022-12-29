@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+}
+body {
+    color:rgb(255, 255, 255);
+    /* center hrzn */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* center vrtc */
+    height: 100vh;
+    justify-content: center;
+
+    /* set bg */
+    background: url(img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-size: 20px;
+    text-align: center;
+}
+.clock{
+    display: flex;
+}
+
+/* every "div" inside "clock" */
+.clock div{
+    position: relative;
+    margin: 10px;
+}
+
+/* "span" here is the numbers & txt holder */
+.clock span{
+    width: 90px;
+    height: 70px;
+    display: flex;
+    justify-content: center; /* center hrzn the span */
+    align-items: center; /* center vrtc the span */
+    
+
+    font-size: 35px;
+            /*   X    Y  blur */
+    text-shadow: -1px 1px 4px rgba(0, 0, 0, 0.761);
+
+    background-color: rgba(240, 248, 255, 0.303);
+
+    overflow: hidden;
+}
+
+.clock .txt{
+    font-size: 13px;
+    background-color: rgba(139, 139, 139, 0.257);
+
+    height: 30px;
+}
+
+.clock #ampm{
+     /* bottom: 35%; */
+     bottom: 0;
+     font-size: 15px;
+     position: absolute;
+     height: 30px;
+     width: 60px;
+}

@@ -15,8 +15,6 @@ body {
     /* set bg */
     background-image: url("img/bg.png");
     background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-background-size: cover;
 }
 
 h1{

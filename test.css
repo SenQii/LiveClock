@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+}
+body{
+    background: url('img/bg.png');
+    color: red ;
+    text-decoration: none;
+
+}
+a{
+    color: black;
+}
+a:hover{
+    color: red;
+}
+a:visited{
+    color: rgb(255, 0, 0);
+}
